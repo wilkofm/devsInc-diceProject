@@ -7,5 +7,5 @@ document.getElementById("rollButton").addEventListener("click", function () {
   const randomNumber = Math.floor(Math.random() * max) + 1;
   document.getElementById(
     "result"
-  ).textContent = `You rolled a ${randomNumber}!`;
+  ).textContent = `You rolled ${randomNumber}!`;
 });
